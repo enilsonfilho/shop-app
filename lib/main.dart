@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:shop/pages/products_overview_page.dart';
 
+/**
+ * 
+ * Enilson Filho
+ */
 void main() {
   runApp(const MyApp());
 }
@@ -14,7 +18,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        colorScheme: ColorScheme.fromSwatch().copyWith(
+          primary: Colors.purple,
+          secondary: Colors.deepOrange,
+        ),
+        fontFamily: 'OpenSans',
       ),
       home: ProductsOverviewPage(),
       debugShowCheckedModeBanner: false,
