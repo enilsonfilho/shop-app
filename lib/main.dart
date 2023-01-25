@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
           primary: Colors.purple,
           secondary: Colors.deepOrange,
         ),
-        fontFamily: 'OpenSans',
+        fontFamily: 'Quicksand',
       ),
       home: ProductsOverviewPage(),
       routes: {
